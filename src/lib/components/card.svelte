@@ -370,6 +370,7 @@
 	.card__rotator {
 		display: grid;
 		perspective: 600px;
+		perspective-origin: min(100%, var(--posx)) min(100%, var(--posy));
 		transform-origin: center;
 		will-change: transform;
 	}
